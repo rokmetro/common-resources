@@ -15,9 +15,9 @@ app:
   name: demoapp
   containerPort: 80
   healthCheckURI: "/"
-service:
-  type: ClusterIP
-  port: 80
+  service:
+    type: ClusterIP
+    port: 80
 
 podAnnotations: {}
 
